@@ -68,8 +68,8 @@ public class SwipVersionDetailPreferenceController extends BasePreferenceControl
 	String swipReleasetype =  SystemProperties.get(KEY_SWIP_RELEASETYPE_PROP);
         String swipZiptype =  SystemProperties.get(KEY_SWIP_ZIPTYPE_PROP);
 
-	if (!swipVer[1].isEmpty() && !swipReleasetype.isEmpty() && !swipZiptype.isEmpty())
-	    return swipVer[1] + " | " + swipZiptype + " | " + swipReleasetype;
+	if (!swipVer[0].isEmpty() && !swipReleasetype.isEmpty() && !swipZiptype.isEmpty())
+	    return swipVer[0] + " | " + swipZiptype + " | " + swipReleasetype;
 	else
             return mContext.getString(R.string.unknown);
     }
