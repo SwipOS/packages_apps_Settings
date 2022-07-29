@@ -22,10 +22,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Arrow logo -->
+    <!-- Swip logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="arrow_logo"
-        android:layout="@layout/arrow_logo"
+        android:key="swip_logo"
+        android:layout="@layout/swip_logo"
         android:selectable="false"/>
 
     <!-- Android version -->
@@ -37,14 +37,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Arrow version -->
+    <!-- Swip version -->
     <Preference
-        android:key="arrow_version"
-        android:title="@string/arrow_version"
+        android:key="swip_version"
+        android:title="@string/swip_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.ArrowVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SwipVersionDetailPreferenceController"/>
 
     <!-- Device name -->
     <Preference

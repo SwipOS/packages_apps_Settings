@@ -44,11 +44,11 @@
         <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
     </Preference>
 
-    <!-- ArrowOS stats -->
+    <!-- SwipOS stats -->
     <Preference
         android:key="stats_trigger"
-        android:title="@string/arrow_stats_title"
-        android:summary="@string/arrow_stats_summary">
+        android:title="@string/swip_stats_title"
+        android:summary="@string/swip_stats_summary">
         <intent
              android:action="android.intent.action.MAIN"
              android:targetPackage="android.romstats"

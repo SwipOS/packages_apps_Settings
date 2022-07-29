@@ -18,9 +18,9 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
 
-    <!-- ArrowOS Installation Stats -->
-    <string name="arrow_stats_title">ArrowOS Stats</string>
-    <string name="arrow_stats_summary">Just counting how many devices we run on</string>
+    <!-- SwipOS Installation Stats -->
+    <string name="swip_stats_title">SwipOS Stats</string>
+    <string name="swip_stats_summary">Just counting how many devices we run on</string>
 
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
@@ -51,7 +51,7 @@
 
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
-    <string name="arrow_version">ArrowOS version</string>
+    <string name="swip_version">SwipOS version</string>
     <string name="about_device_name">Device</string>
 
     <!-- Double Tap to Sleep Statusbar -->
