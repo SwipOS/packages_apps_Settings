@@ -46,6 +46,15 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SwipVersionDetailPreferenceController"/>
 
+
+    <!-- Swip Maintainer  -->
+    <Preference
+        android:key="swip_maintainer"
+        android:title="@string/swip_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SwipMaintainerPreferenceController"/>
+
     <!-- Device name -->
     <Preference
         android:key="about_device_name"
