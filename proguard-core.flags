@@ -1,0 +1,2 @@
+# SwipHub
+-keep class com.swip.hub.**

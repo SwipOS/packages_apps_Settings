@@ -21,6 +21,15 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.swip.hub.SwipMenu"
+        android:icon="@drawable/ic_swip"
+        android:key="top_level_swiphub"
+        android:order="-160"
+        android:title="@string/swip_menu_title"
+        android:summary="@string/swip_menu_summary"
+        settings:controller="com.swip.hub.SwipMenu" />
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"

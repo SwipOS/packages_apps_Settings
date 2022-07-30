@@ -198,4 +198,8 @@
 
     <!-- Swip Maintainer -->
     <string name="swip_maintainer">SwipOS Maintainer</string>
+
+    <!-- SwipHub -->
+    <string name="swip_menu_title">SwipHub</string>
+    <string name="swip_menu_summary">Personalize SwipOS to your needs!</string>
 </resources>
